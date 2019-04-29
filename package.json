@@ -1,0 +1,24 @@
+{
+  "name": "node-sample",
+  "version": "1.0.0",
+  "description": "sample app",
+  "main": "./src/server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/filipeferreira-dev/node-sample.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Filipe Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/filipeferreira-dev/node-sample/issues"
+  },
+  "homepage": "https://gitlab.com/filipeferreira-dev/node-sample#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  }
+}
