@@ -4,7 +4,7 @@ const app = express();
 
 const userController = require('./user/user.controller');
 const authenticationController = require('./authentication/authentication.controller');
-
+const PORT = process.env.PORT || '8080';
 app.use(bodyParser.json());
 
 //please, don't judge me
@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 userController(app);
 authenticationController(app, TOKEN);
 
-app.listen(process.env.PORT || '8080', () => {
+app.listen(PORT, () => {
   console.log('server started');
+  console.log(`listening on http://localhost:${PORT}`);
 });

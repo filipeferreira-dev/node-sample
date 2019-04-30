@@ -1,11 +1,14 @@
 # node-sample
 
-Sample app node.
+Sample app node for post.
 
-#running
+## Prerequisites
+-   NodeJs and Npm. [Download here](https://nodejs.org/en/download/)
+
+## running
 
 Run following command
 
 ```
-npm start
+npm install && npm start
 ```
